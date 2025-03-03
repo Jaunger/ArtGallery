@@ -52,7 +52,7 @@
 ### 👁 **Secret QR Unlock for Chat Features**  
 
 - Initially, the chat and embedding features are **locked**.  
-- Users must [**scan a specific QR code**]() to **unlock** chat and encryption tools.  
+- Users must **scan a specific** [**QR code**](artGallery_imgs/art_chat.png) to **unlock** chat and encryption tools.  
 - If an invalid QR code is scanned, the features remain locked.  
 
 ---
