@@ -64,7 +64,7 @@ public class ChatActivity extends AppCompatActivity {
     private Bitmap baseImage;
     private ImageButton buttonSend;
     private ContentObserver brightnessObserver;
-
+    private boolean gestureMade;
     private volatile boolean isQuiet = false;
     private volatile boolean isNoiseDetectionRunning = false;
     private Thread noiseDetectionThread;
@@ -127,7 +127,7 @@ public class ChatActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_chat);
-
+        gestureMade = false;
         username = getIntent().getStringExtra("USERNAME");
         String chatRoom = getIntent().getStringExtra("CHAT_ROOM");
         if (chatRoom == null || chatRoom.isEmpty()) {
@@ -462,10 +462,15 @@ public class ChatActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if(item.getItemId() == R.id.action_toggle_mode) {
-            boolean currentMode = adapter.checkDecryptionMode();
-            adapter.setDecryptMode(!currentMode);
+            //boolean currentMode = adapter.checkDecryptionMode();
+            //adapter.setDecryptMode(!currentMode);
             return true;
         }
+        if (item.getItemId() == android.R.id.home) { // Handle the back button
+            finish();
+            return true;
+        }
+
         return super.onOptionsItemSelected(item);
     }
     /**
