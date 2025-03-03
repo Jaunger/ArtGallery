@@ -15,3 +15,5 @@
 local.properties
 com/example/artgallery/Entities/ChatHubItem.java
 com/example/artgallery/Adapters/ChatHubAdapter.java
+app/src/main/java/com/example/artgallery/Adapters/ChatHubAdapter.java
+app/src/main/java/com/example/artgallery/Entities/ChatHubItem.java
