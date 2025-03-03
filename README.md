@@ -1,4 +1,4 @@
-# ArtGallery 
+# ArtGallery Android App  
 
 **ArtGallery** is an Android application that integrates **steganography, encryption,** and **gesture-based unlocking mechanisms** to provide a **secure chat experience.** Users can **embed hidden messages into images**, unlock chat features via **QR scanning,** and decrypt messages through a **secret gesture combined with system conditions** (brightness, volume, and ambient noise).  
 
@@ -89,7 +89,19 @@ cd ArtGallery
 ## 📸 Screenshots & Demo  
 
 ### Screenshots  
-[Insert screenshots here]  
+<table>
+  <tr>
+    <td><img src="artGallery_imgs/art_login.png" alt="Screenshot 1" width="200"></td>
+    <td><img src="artGallery_imgs/art_hub.png" alt="Screenshot 2" width="200"></td>
+    <td><img src="artGallery_imgs/art_hubUnlocked.png" alt="Screenshot 3" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="artGallery_imgs/art_chat.png" alt="Screenshot 4" width="200"></td> 
+    <td><img src="artGallery_imgs/art_encrypt.png" alt="Screenshot 5" width="200"></td>
+    <td><img src="artGallery_imgs/art_decrypt.png" alt="Screenshot 6" width="200"></td>
+  </tr>
+</table>
+
 
 ### Demo Video  
 [Insert demo video link here]  
@@ -130,6 +142,7 @@ This project is licensed under the **MIT License**.
 
 ## 🌍 Connect  
 
-**Daniel Raby**  
-📧 Email: [email](danielraby123@gmail.com)  
+**Your Name**  
+📧 Email: your@email.com  
+🎡 GitHub: [yourusername](https://github.com/yourusername)  
 
