@@ -1,0 +1,29 @@
+<resources>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#1E3A5F</color>  <!-- Deep Navy Blue -->
+    <color name="colorPrimaryVariant">#162D49</color>  <!-- Darker Navy Blue -->
+    <color name="colorSecondary">#21A179</color>  <!-- Warm Cyan -->
+
+    <!-- Background Colors -->
+    <color name="colorBackground">#F8F9FA</color>  <!-- Light mode -->
+    <color name="colorBackgroundDark">#1E1E1E</color>  <!-- Dark mode -->
+    <color name="colorSurface">#FFFFFF</color>  <!-- Surface background -->
+
+    <!-- Text Colors -->
+    <color name="textPrimary">#2C2C2C</color>  <!-- Dark Gray for readability -->
+    <color name="textSecondary">#646464</color>  <!-- Muted Gray -->
+    <color name="textPrimaryDark">#EAEAEA</color>  <!-- Light Gray for dark mode -->
+
+    <!-- Button Colors -->
+    <color name="colorButton">#1E3A5F</color>  <!-- Deep Navy Blue for buttons -->
+    <color name="colorButtonText">#FFFFFF</color>  <!-- Button text color -->
+
+    <!-- Chat Bubble Colors -->
+    <color name="bubbleSent">#A5D6A7</color>  <!-- Soft Green for Sent Messages -->
+    <color name="bubbleReceived">#E3F2FD</color>  <!-- Light Blue for Received Messages -->
+
+    <!-- Error Color -->
+    <color name="errorColor">#D72638</color>  <!-- Warm Red -->
+    <color name="colorOnPrimary">#FFFFFF</color>  <!-- White text on primary buttons -->
+    <color name="colorOnSurface">#000000</color>  <!-- Black text on secondary buttons -->
+</resources>

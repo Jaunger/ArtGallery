@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutDecrypt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Rounded Background for Form -->
+    <LinearLayout
+        android:id="@+id/decryptContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_background"
+        android:padding="24dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Select Image to Decrypt -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonSelectImageDecrypt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Image to Decrypt"
+            app:backgroundTint="@color/colorPrimary"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Selected Image -->
+        <ImageView
+            android:id="@+id/imageViewDecrypt"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Image to decrypt"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Extract Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonExtractText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Extract Text"
+            app:backgroundTint="@color/colorPrimary"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Extracted Text Display -->
+        <TextView
+            android:id="@+id/textViewExtracted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Extracted text will appear here"
+            android:textAppearance="?attr/textAppearanceBody1"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

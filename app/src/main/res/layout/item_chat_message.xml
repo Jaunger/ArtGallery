@@ -1,0 +1,65 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        android:layout_marginBottom="8dp">
+
+        <LinearLayout
+            android:id="@+id/containerMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:background="@drawable/chat_bubble_received">
+
+            <!-- Sender Name (Hidden if it's the current user) -->
+            <TextView
+                android:id="@+id/textViewSender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sender"
+                android:textStyle="bold"
+                android:textColor="@color/textPrimary"
+                android:visibility="visible"
+                android:textSize="14sp"/>
+
+            <!-- Image for encoded message -->
+            <ImageView
+                android:id="@+id/imageViewArt"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="4dp"
+                android:visibility="gone"/>
+
+            <!-- Decrypted text (if toggle mode) -->
+            <TextView
+                android:id="@+id/textViewDecrypted"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="4dp"/>
+
+            <!-- Timestamp -->
+            <TextView
+                android:id="@+id/textViewTimestamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="@color/textSecondary"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

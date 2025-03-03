@@ -1,0 +1,5 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+com/example/artgallery/Entities/ChatHubItem.java
+com/example/artgallery/Adapters/ChatHubAdapter.java
