@@ -1,4 +1,4 @@
-# ArtGallery Android App  
+# ArtGallery
 
 **ArtGallery** is an Android application that integrates **steganography, encryption,** and **gesture-based unlocking mechanisms** to provide a **secure chat experience.** Users can **embed hidden messages into images**, unlock chat features via **QR scanning,** and decrypt messages through a **secret gesture combined with system conditions** (brightness, volume, and ambient noise).  
 
@@ -52,7 +52,7 @@
 ### 👁 **Secret QR Unlock for Chat Features**  
 
 - Initially, the chat and embedding features are **locked**.  
-- Users must **scan a specific QR code** (e.g., `"ArtGallery"`) to **unlock** chat and encryption tools.  
+- Users must [**scan a specific QR code**]() to **unlock** chat and encryption tools.  
 - If an invalid QR code is scanned, the features remain locked.  
 
 ---
@@ -104,7 +104,7 @@ cd ArtGallery
 
 
 ### Demo Video  
-[[link](https://youtube.com/shorts/4fw0BO_EWiI?feature=share)]  
+[link](https://youtube.com/shorts/4fw0BO_EWiI?feature=share) 
 
 ---
 
@@ -142,7 +142,6 @@ This project is licensed under the **MIT License**.
 
 ## 🌍 Connect  
 
-**Your Name**  
-📧 Email: your@email.com  
-🎡 GitHub: [yourusername](https://github.com/yourusername)  
+**Daniel Raby**  
+📧 Email: [email](danielraby123@Gmail.com)
 
