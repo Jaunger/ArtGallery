@@ -277,7 +277,7 @@ public class Utils {
      */
     public static SecretKey generateRandomKey() throws Exception {
         KeyGenerator keyGen = KeyGenerator.getInstance("AES");
-        keyGen.init(128); // 128-bit key; adjust as needed.
+        keyGen.init(128);
         return keyGen.generateKey();
     }
 
